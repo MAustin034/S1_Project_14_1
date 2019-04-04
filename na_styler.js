@@ -24,6 +24,9 @@ window.addEventListener("load", setStyles);
 
 function setStyles() {
       var styleNum = randInt(5);
+      var linkElem = document.createElement("link");
+      linkElem.setAttribute("rel", "stylesheet");
+      linkElem.setAttribute
 }
 
 
