@@ -26,7 +26,12 @@ function setStyles() {
       var styleNum = randInt(5);
       var linkElem = document.createElement("link");
       linkElem.setAttribute("rel", "stylesheet");
-      linkElem.setAttribute
+      linkElem.setAttribute("id", "fancySheet");
+      linkElem.setAttribute("href", "na_style_" + styleNum + ".css");
+      document.head.appendChild(linkElem);
+      var figBox = document.createElement("figure");
+      figBox.createAttribute("id", "styleThumbs");
+
 }
 
 
