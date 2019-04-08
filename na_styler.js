@@ -31,7 +31,10 @@ function setStyles() {
       document.head.appendChild(linkElem);
       var figBox = document.createElement("figure");
       figBox.createAttribute("id", "styleThumbs");
+      for (var i = 0; i < 4; i++) {
+            document.createElement("img", "sheetImg");
 
+      }
 }
 
 
