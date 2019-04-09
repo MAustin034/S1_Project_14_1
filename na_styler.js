@@ -35,6 +35,7 @@ function setStyles() {
             document.createElement("img", "sheetImg");
 
       }
+
 }
 
 
